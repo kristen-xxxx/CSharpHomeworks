@@ -26,16 +26,18 @@ public class Form1 : Form
         graphics = e.Graphics;
         drawCayleyTree(10, 200, 310, 100, -Math.PI / 2);
     }
-
-    private Graphics graphics;
-    readonly double th1 = 30 * Math.PI / 180;
-    readonly double th2 = 20 * Math.PI / 180;
-    readonly double per1 = 0.6;
     private TextBox textBox1;
     private TextBox textBox2;
     private TextBox textBox3;
     private TextBox textBox4;
     private Button button1;
+    private Graphics graphics;
+    //string s2 = textBox4.Text;
+    //double a = double.Parse(s2);
+    readonly double th1 = 30 * Math.PI / 180;
+    readonly double th2 = 20 * Math.PI / 180;
+    readonly double per1 = 0.6;
+
     readonly double per2 = 0.7;
 
     void drawCayleyTree(int n,
